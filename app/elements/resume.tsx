@@ -17,7 +17,10 @@ const skills = [
 const Resume = () => {
   return (
     <div className="bg-gray-100 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto bg-white shadow overflow-hidden sm:rounded-lg">
+      <div
+        className="max-w-4xl mx-auto bg-white shadow overflow-hidden sm:rounded-lg"
+        id="actualResume"
+      >
         {/* Header */}
         <div className="px-4 py-5 sm:px-6">
           <h3 className="text-3xl leading-8 font-bold text-gray-900">
@@ -87,7 +90,7 @@ const Resume = () => {
         <div className="border-t border-gray-200">
           <div className="bg-white px-4 py-5 sm:px-6">
             <dt className="text-lg font-medium text-gray-500 mb-2">About Me</dt>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap text-black">
               Adaptable Management and software development major aiming to
               leverage proven communication, creative thinking and management
               skills to successfully fill the software developer at your
