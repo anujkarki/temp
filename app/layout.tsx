@@ -7,7 +7,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Anuj's Resume",
   description: "This is Anuj Resume",
-  keywords:"Software developer, software enginner, freelance, anuj, karki, software, developer, hire, contact, team lead"
+  keywords:
+    "Software developer, software enginner, freelance, anuj, karki, software, developer, hire, contact, team lead",
 };
 
 export default function RootLayout({
